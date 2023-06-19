@@ -1,0 +1,7 @@
+name: Test
+on: [push]
+jobs:
+  test:
+    runs-on: Default
+    steps:
+      - run: echo "🎉 The job was automatically triggered!"
