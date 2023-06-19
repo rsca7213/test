@@ -4,7 +4,6 @@ jobs:
   test:
     runs-on: self-hosted
     steps:
-      - name: checkout repo
-        uses: actions/checkout@v2.3.4
       - name: create item
-        run: New-Item test.txt
+        run: ls
+        working-directory: "C:/Users/rasal/Desktop"
