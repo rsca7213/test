@@ -5,5 +5,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: create item
-        run: ls
+        run: New-Item test.txt
         working-directory: "C:/Users/rasal/Desktop"
