@@ -2,6 +2,6 @@ name: Test
 on: [push]
 jobs:
   test:
-    runs-on: Default
+    runs-on: self-hosted
     steps:
       - run: echo "🎉 The job was automatically triggered!"
