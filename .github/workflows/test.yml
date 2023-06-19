@@ -5,4 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: cd "C:\Users\rasal\Desktop"
-      - run: Create-Item test.txt
+      - run: New-Item test.txt
